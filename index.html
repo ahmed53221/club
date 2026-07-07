@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ZMFC — Žalgrilska Milicija Football Club</title>
+<meta name="description" content="Official website of Žalgrilska Milicija FC — competing in the Second Bosnian Division." />
+<link rel="icon" href="assets/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <a class="brand" href="#top">
+    <img src="assets/logo.png" alt="ZMFC crest" />
+    <span>
+      <b>Žalgrilska Milicija</b>
+      <em>Football Club · Est. 1974</em>
+    </span>
+  </a>
+  <nav>
+    <a href="#about">Club</a>
+    <a href="#squad">Squad</a>
+    <a href="#fixtures">Fixtures</a>
+    <a href="#table">Table</a>
+    <a href="#stadium">Stadium</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="cta" href="#tickets">Buy Tickets</a>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Druga Liga BiH · Sezona 2025/26</span>
+      <h1><span class="stroke">ZMAJEVI</span><br/>OF ZALGRILA</h1>
+      <p class="lede">Green fire, iron discipline. Founded on the pitches of Žalgrila, we play second-tier Bosnian football with first-tier heart.</p>
+      <div class="hero-cta">
+        <a href="#fixtures" class="btn btn-primary">Next Match →</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+      <ul class="hero-stats">
+        <li><b>2°</b><span>Bosnian Div.</span></li>
+        <li><b>1974</b><span>Founded</span></li>
+        <li><b>8,400</b><span>Capacity</span></li>
+        <li><b>#8</b><span>Table Pos.</span></li>
+      </ul>
+    </div>
+    <div class="hero-crest">
+      <div class="crest-glow"></div>
+      <img src="assets/logo.png" alt="ZMFC" />
+      <div class="crest-tag">Z · M · F · C</div>
+    </div>
+  </div>
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>◆ ZMFC 3 – 0 Lasko</span><span>◆ ZMFC 2 – 1 @ Neki Novi Klinci</span><span>◆ Preseason: BORO 3-3, Porto 3-2</span><span>◆ 8th in the table · 6 pts from 3</span><span>◆ Next up: ÖZTAR (FL) · Sat 11 Jul</span><span>◆ Youth trials open all summer</span><span>◆ ZMFC 3 – 0 Lasko</span><span>◆ ZMFC 2 – 1 @ Neki Novi Klinci</span><span>◆ 8th in the table · 6 pts from 3</span>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT MATCH -->
+<section class="next-match">
+  <div class="nm-wrap">
+    <span class="nm-label">Next Fixture</span>
+    <div class="nm-body">
+      <div class="nm-team">
+        <img src="assets/logo.png" alt="" />
+        <div><b>ZMFC</b><em>Home</em></div>
+      </div>
+      <div class="nm-vs">
+        <div class="nm-date">SAT · 11 JUL · 19:00 · FRIENDLY</div>
+        <div class="nm-vs-word">VS</div>
+        <div class="nm-venue">Stadion Zeleni Kamen</div>
+      </div>
+      <div class="nm-team right">
+        <div><b>ÖZTAR</b><em>Away</em></div>
+        <div class="opp-crest">ÖZ</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="section-head">
+    <span class="kicker">01 / The Club</span>
+    <h2>Half a century of green fire.</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>Founded in 1974 by railway workers of the Žalgrila district, ZMFC — <em>Žalgrilska Milicija Football Club</em> — has been the beating heart of its neighborhood for over fifty years. Our dragon crest was chosen in 1981 to represent the fire we bring to every match.</p>
+      <p>We currently compete in the <b>Second Bosnian Division</b>, chasing promotion with a squad built on local talent, hardened veterans, and a philosophy the ultras call <em>"disciplina i vatra"</em> — discipline and fire.</p>
+      <ul class="values">
+        <li><b>Disciplina</b><span>Order on and off the pitch.</span></li>
+        <li><b>Vatra</b><span>Play like the crest is burning.</span></li>
+        <li><b>Zajednica</b><span>Community first, always.</span></li>
+      </ul>
+    </div>
+    <aside class="honors">
+      <h3>Honours</h3>
+      <ol>
+        <li><span>1988</span> Regional Cup Winners</li>
+        <li><span>1996</span> Third Division Champions</li>
+        <li><span>2011</span> Bosnian Fair-Play Award</li>
+        <li><span>2019</span> Second Division · 3rd place</li>
+        <li><span>2023</span> Youth Academy Excellence</li>
+      </ol>
+    </aside>
+  </div>
+</section>
+
+<!-- SQUAD -->
+<section id="squad" class="section squad">
+  <div class="section-head">
+    <span class="kicker">02 / First Team</span>
+    <h2>The squad, 2026/27.</h2>
+  </div>
+  <div class="squad-grid" id="squadGrid"></div>
+</section>
+
+<!-- FIXTURES -->
+<section id="fixtures" class="section fixtures">
+  <div class="section-head">
+    <span class="kicker">03 / Calendar</span>
+    <h2>Fixtures &amp; results.</h2>
+  </div>
+  <div class="fix-tabs">
+    <button class="fix-tab active" data-tab="upcoming">Upcoming</button>
+    <button class="fix-tab" data-tab="results">Results</button>
+  </div>
+  <div class="fix-filters">
+    <button class="fix-filter active" data-filter="all">All</button>
+    <button class="fix-filter" data-filter="league">League</button>
+    <button class="fix-filter" data-filter="friendly">Friendlies</button>
+  </div>
+  <div class="fix-list" id="fixList"></div>
+</section>
+
+<!-- TABLE -->
+<section id="table" class="section table-sec">
+  <div class="section-head">
+    <span class="kicker">04 / Standings</span>
+    <h2>Second Bosnian Division — current table.</h2>
+  </div>
+  <div class="st-modes">
+    <button class="st-mode active" data-mode="overall">Overall</button>
+    <button class="st-mode" data-mode="home">Home</button>
+    <button class="st-mode" data-mode="away">Away</button>
+  </div>
+  <div class="table-wrap">
+    <table id="standings">
+      <thead>
+        <tr>
+          <th data-sort="rank">#</th>
+          <th data-sort="club" class="th-club">Team</th>
+          <th data-sort="p" title="Played">P</th>
+          <th data-sort="w" title="Wins">W</th>
+          <th data-sort="d" title="Draws">D</th>
+          <th data-sort="l" title="Losses">L</th>
+          <th data-sort="gf" title="Goals for : against">Goals</th>
+          <th data-sort="gd" title="Goal difference">GD</th>
+          <th>Form</th>
+          <th data-sort="pts" class="th-pts sort-desc">Pts</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div class="st-legend">
+    <span><i class="zone champ"></i> Champion</span>
+    <span><i class="zone promo"></i> Promotion / Play-off</span>
+    <span><i class="zone releg"></i> Relegation</span>
+    <span class="st-hint">Click a column header to sort · Click a row to see recent form</span>
+  </div>
+</section>
+
+<!-- STADIUM -->
+<section id="stadium" class="section stadium">
+  <div class="section-head">
+    <span class="kicker">05 / Home</span>
+    <h2>Stadion Zeleni Kamen.</h2>
+  </div>
+  <div class="stad-grid">
+    <div class="stad-facts">
+      <div><b>8,400</b><span>Capacity</span></div>
+      <div><b>1981</b><span>Opened</span></div>
+      <div><b>105 × 68 m</b><span>Pitch</span></div>
+      <div><b>Žalgrila</b><span>District</span></div>
+    </div>
+    <div class="stad-img" aria-label="Stadium illustration">
+      <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#0b3d1f"/>
+            <stop offset="1" stop-color="#062712"/>
+          </linearGradient>
+          <linearGradient id="grass" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#1c8a3a"/>
+            <stop offset="1" stop-color="#0f5a24"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="300" fill="url(#sky)"/>
+        <!-- stadium ring -->
+        <ellipse cx="300" cy="220" rx="290" ry="70" fill="#0a2f18"/>
+        <ellipse cx="300" cy="200" rx="260" ry="55" fill="#123f22"/>
+        <!-- pitch -->
+        <ellipse cx="300" cy="205" rx="220" ry="42" fill="url(#grass)"/>
+        <rect x="200" y="190" width="200" height="30" fill="none" stroke="#fff" stroke-width="1.2" opacity=".75"/>
+        <line x1="300" y1="190" x2="300" y2="220" stroke="#fff" stroke-width="1" opacity=".75"/>
+        <circle cx="300" cy="205" r="8" fill="none" stroke="#fff" stroke-width="1" opacity=".75"/>
+        <!-- floodlights -->
+        <g stroke="#ffd23f" stroke-width="2" opacity=".9">
+          <line x1="60" y1="60" x2="60" y2="180"/><rect x="45" y="55" width="30" height="10" fill="#ffd23f"/>
+          <line x1="540" y1="60" x2="540" y2="180"/><rect x="525" y="55" width="30" height="10" fill="#ffd23f"/>
+        </g>
+        <!-- crowd -->
+        <g fill="#0f7a2f">
+          <circle cx="120" cy="180" r="3"/><circle cx="140" cy="182" r="3"/><circle cx="160" cy="180" r="3"/><circle cx="180" cy="184" r="3"/>
+          <circle cx="440" cy="180" r="3"/><circle cx="460" cy="182" r="3"/><circle cx="480" cy="180" r="3"/><circle cx="500" cy="184" r="3"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- TICKETS / CONTACT -->
+<section id="tickets" class="section tickets">
+  <div class="tkt-grid">
+    <div class="tkt-card">
+      <span class="kicker">Matchday</span>
+      <h3>Season ticket 25/26</h3>
+      <p>15 home matches. Priority away allocation. 10% club-shop discount.</p>
+      <div class="price"><b>KM 180</b><em>/ season</em></div>
+      <a href="#" class="btn btn-primary">Reserve</a>
+    </div>
+    <div class="tkt-card dark">
+      <span class="kicker">Youth Academy</span>
+      <h3>Zmajevi Juniori</h3>
+      <p>Trials open for U9 through U17. Every kid from Žalgrila gets a look.</p>
+      <div class="price"><b>Free</b><em>trial</em></div>
+      <a href="#" class="btn btn-ghost">Apply</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="footer">
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <img src="assets/logo.png" alt="ZMFC" />
+      <div>
+        <b>Žalgrilska Milicija FC</b>
+        <p>Stadion Zeleni Kamen<br/>Ul. Železnička 7, Žalgrila<br/>Bosnia and Herzegovina</p>
+      </div>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="432a2d252c03392e25206d2122">[email&#160;protected]</a><br/>+387 33 000 000<br/>Shop: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c1f04031c2c16010a0f420e0d">[email&#160;protected]</a></p>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <p>@zmfc.official<br/>@zmajevi_ultras<br/>YouTube: ZMFC TV</p>
+    </div>
+    <div>
+      <h4>Newsletter</h4>
+      <form onsubmit="event.preventDefault();this.querySelector('button').textContent='✓ Signed up';">
+        <input type="email" required placeholder="you@email.com" />
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </div>
+  <div class="foot-bar">
+    <span>© 2026 Žalgrilska Milicija FC. Sva prava zadržana.</span>
+    <span>Disciplina · Vatra · Zajednica</span>
+  </div>
+</footer>
+
+<!-- MATCH MODAL -->
+<div id="matchModal" class="mm-overlay" role="dialog" aria-modal="true" aria-label="Match details">
+  <div class="mm-shell">
+    <button id="modalClose" class="mm-close" aria-label="Close">×</button>
+    <div id="modalBody" class="mm-content"></div>
+  </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
