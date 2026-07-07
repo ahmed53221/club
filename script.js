@@ -406,7 +406,7 @@ function renderUpcomingMatch(m){
       <div class="mm-odds">
         <div class="mm-odds-head"><span>1X2</span><em>Match winner</em></div>
         <div class="mm-odds-row">
-          <div class="odds-src">MOZZART torten</div>
+          <div class="odds-src">TROZART torten</div>
           <div class="odds-cell"><em>1</em><b>↑ ${m.odds.h}</b></div>
           <div class="odds-cell"><em>X</em><b>↑ ${m.odds.d}</b></div>
           <div class="odds-cell"><em>2</em><b>↓ ${m.odds.a}</b></div>
