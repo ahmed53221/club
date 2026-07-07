@@ -406,13 +406,13 @@ function renderUpcomingMatch(m){
       <div class="mm-odds">
         <div class="mm-odds-head"><span>1X2</span><em>Match winner</em></div>
         <div class="mm-odds-row">
-          <div class="odds-src">MOZZART</div>
+          <div class="odds-src">MOZZART torten</div>
           <div class="odds-cell"><em>1</em><b>↑ ${m.odds.h}</b></div>
           <div class="odds-cell"><em>X</em><b>↑ ${m.odds.d}</b></div>
           <div class="odds-cell"><em>2</em><b>↓ ${m.odds.a}</b></div>
         </div>
         <div class="mm-odds-row">
-          <div class="odds-src">SPORTKLUB</div>
+          <div class="odds-src">SPORTskiKLUB</div>
           <div class="odds-cell"><em>1</em><b>↑ ${(parseFloat(m.odds.h)+0.05).toFixed(2)}</b></div>
           <div class="odds-cell"><em>X</em><b>↑ ${(parseFloat(m.odds.d)-0.05).toFixed(2)}</b></div>
           <div class="odds-cell"><em>2</em><b>↓ ${(parseFloat(m.odds.a)+0.10).toFixed(2)}</b></div>
