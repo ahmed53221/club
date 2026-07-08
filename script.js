@@ -260,7 +260,7 @@ const results = [
       away:["Manrique","Williams","Romanić","Zhang","Todorević","Karleuša","Smedt","Aggelopoulos","Mulamustafić","Đurović","Halilović"]
     }
   },
-];
+  {
  id:"r6", d:"08 JUL", day:"TUE", date:"08 Jul 2026",
     comp:"Frendly", compTag:"FL",
     home:ZMFC, away:"Oztar", score:"0 – 0", ht:"0 – 0",
@@ -270,7 +270,7 @@ const results = [
       { min:"3'", side:"home", type:"yellow", text:"Williams" },
       { min:"30'", side:"away", type:"yellow", text:"Garay" },
       { min:"60'", side:"away", type:"yellow", text:"Kahraman" }
-  
+      }, ];
     ],
 
 function up(id, d, day, month, comp, compTag, home, away, time, venue, round){
