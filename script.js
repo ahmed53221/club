@@ -260,8 +260,8 @@ const results = [
       away:["Manrique","Williams","Romanić","Zhang","Todorević","Karleuša","Smedt","Aggelopoulos","Mulamustafić","Đurović","Halilović"]
     }
   },{
-   id:"r6", d:"07 JUL", day:"TUE", date:"0 Jul 2026",
-    comp:"Frendly", compTag:"FL",
+   id:"r6", d:"07 JUL", day:"TUE", date:"07 Jul 2026",
+    comp:"Friendly", compTag:"FL",
     home:ZMFC, away:"Oztar", score:"0 – 0", ht:"0 – 0",
     venue:"Maze bank arena", round:"Round 3", ref:"A. Dizdar", att:"4,120",
     events:[
