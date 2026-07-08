@@ -266,7 +266,7 @@ const results = [
     venue:"Maze bank arena", round:"Round 3", ref:"A. Dizdar", att:"4,120",
     events:[
      
-      { min:"3'", side:"away", type:"yellow", text:"Williams" },
+      { min:"3'", side:"home", type:"yellow", text:"Williams" },
       { min:"30'", side:"away", type:"yellow", text:"Garay" },
       { min:"60'", side:"away", type:"yellow", text:"Kahraman" },
       
