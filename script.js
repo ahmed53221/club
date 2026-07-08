@@ -261,7 +261,7 @@ const results = [
     }
   },
   {
- id:"r6", d:"08 JUL", day:"TUE", date:"08 Jul 2026",
+    id:"r6", d:"08 JUL", day:"TUE", date:"08 Jul 2026",
     comp:"Frendly", compTag:"FL",
     home:ZMFC, away:"Oztar", score:"0 – 0", ht:"0 – 0",
     venue:"Maze bank arena", round:"Round 3", ref:"A. Dizdar", att:"4,120",
