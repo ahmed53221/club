@@ -269,9 +269,14 @@ const results = [
    
       { min:"3'", side:"home", type:"yellow", text:"Williams" },
       { min:"30'", side:"away", type:"yellow", text:"Garay" },
-      { min:"60'", side:"away", type:"yellow", text:"Kahraman" }
+      { min:"60'", side:"away", type:"yellow", text:"Kahraman" }  ],
+    stats:{ poss:[45,55], shots:[10,14], shotsOn:[5,6], corners:[4,7], fouls:[12,11], yellow:[2,2], red:[0,0], offside:[1,3] },
+    lineup:{
+      home:["Brzava GK","Brzava 2","Brzava 3","Brzava 4","Brzava 5","Brzava 6","Brzava 7","Brzava 8","Brzava 9","Brzava 10","Brzava 11"],
+      away:["Manrique","Williams","Romanić","Zhang","Todorević","Karleuša","Smedt","Aggelopoulos","Mulamustafić","Đurović","Halilović"]
+    }
       }, ];
-    ],
+    
 
 function up(id, d, day, month, comp, compTag, home, away, time, venue, round){
   return { id, d, day, date:`${d} ${month} 2026`, comp, compTag, home, away, time, venue, round,
