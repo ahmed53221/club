@@ -261,13 +261,23 @@ const results = [
     }
   },
 ];
+ id:"r6", d:"08 JUL", day:"TUE", date:"08 Jul 2026",
+    comp:"Frendly", compTag:"FL",
+    home:ZMFC, away:"Oztar", score:"0 – 0", ht:"0 – 0",
+    venue:"Maze bank arena", round:"Round 3", ref:"A. Dizdar", att:"4,120",
+    events:[
+   
+      { min:"3'", side:"home", type:"yellow", text:"Williams" },
+      { min:"30'", side:"away", type:"yellow", text:"Garay" },
+      { min:"60'", side:"away", type:"yellow", text:"Kahraman" }
+  
+    ],
 
 function up(id, d, day, month, comp, compTag, home, away, time, venue, round){
   return { id, d, day, date:`${d} ${month} 2026`, comp, compTag, home, away, time, venue, round,
     ref:"TBA", tv:"BHT Sport", odds: home===ZMFC ? {h:"1.85",d:"3.30",a:"3.90"} : {h:"3.60",d:"3.20",a:"2.00"} };
 }
 const upcoming = [
-  up("u01","11","SAT","Jul","Friendly","FL",ZMFC,"ÖZTAR","19:00","Maze bank arena","Friendly"),
   up("u02","14","TUE","Jul","League","LG",ZMFC,"Sarajevo Atletic","18:30","Maze bank arena","Round 4"),
   up("u03","17","FRI","Jul","League","LG","Gotham Bats",ZMFC,"20:00","Wayne Stadium","Round 5"),
   up("u04","20","MON","Jul","League","LG",ZMFC,"FK Rudar Zenica","18:00","Maze bank arena","Round 6"),
