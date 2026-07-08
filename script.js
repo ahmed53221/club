@@ -276,6 +276,36 @@ const results = [
       home:["Manrique","Williams","Romanić","Zhang","Todorević","Karleuša","Smedt","Aggelopoulos","Mulamustafić","Đurović","Halilović"],
       away:["Lasko GK","Lasko 2","Lasko 3","Lasko 4","Lasko 5","Lasko 6","Lasko 7","Lasko 8","Lasko 9","Lasko 10","Lasko 11"]
     }
+  },{
+   id:"r7", d:"08 JUL", day:"TUE", date:"08 Jul 2026",
+    comp:"League", compTag:"LG",
+    home:ZMFC, away:"Sarajevo athletic", score:"9 – 0", ht:"5 – 0",
+    venue:"Maze bank arena", round:"Round 3", ref:"A. Dizdar", att:"4,120",
+    events:[
+     
+      { min:"4'", side:"home", type:"goal", text:"Smedt" },
+      { min:"11'", side:"home", type:"goal", text:"Mulamustafic" },
+      { min:"39'", side:"home", type:"goal", text:"Helic" },
+      { min:"40'", side:"home", type:"goal", text:"Durovic" },
+      { min:"42'", side:"home", type:"goal", text:"Mulamustafic" },
+      { min:"54'", side:"home", type:"goal", text:"Durovic" },
+      { min:"60'", side:"home", type:"yellow", text:"Helic" },
+      { min:"61'", side:"home", type:"yellow", text:"Helic" },
+      { min:"61'", side:"home", type:"red", text:"Helic" },
+      { min:"70'", side:"home", type:"yellow", text:"Basic" },
+      { min:"73'", side:"away", type:"yellow", text:"Keselj" },
+      { min:"77'", side:"home", type:"yellow", text:"Fulin" },
+      { min:"78'", side:"away", type:"yellow", text:"Sabic" },
+      { min:"82'", side:"home", type:"goal", text:"Mulamustafic" },
+      { min:"91'", side:"home", type:"goal", text:"Durovic" },
+      { min:"92'", side:"away", type:"yellow", text:"Lovric" },
+      
+    ],
+    stats:{ poss:[60,40], shots:[21,5], shotsOn:[15,3], corners:[1,5], fouls:[8,15], yellow:[3,3], red:[1,0], offside:[0,0] },
+    lineup:{
+      home:["Manrique","Williams","Romanić","Zhang","Todorević","Karleuša","Smedt","Aggelopoulos","Mulamustafić","Đurović","Halilović"],
+      away:["Lasko GK","Lasko 2","Lasko 3","Lasko 4","Lasko 5","Lasko 6","Lasko 7","Lasko 8","Lasko 9","Lasko 10","Lasko 11"]
+    }
   },
   ];
     
@@ -285,7 +315,7 @@ function up(id, d, day, month, comp, compTag, home, away, time, venue, round){
     ref:"TBA", tv:"BHT Sport", odds: home===ZMFC ? {h:"1.85",d:"3.30",a:"3.90"} : {h:"3.60",d:"3.20",a:"2.00"} };
 }
 const upcoming = [
-  up("u02","14","TUE","Jul","League","LG",ZMFC,"Sarajevo Atletic","18:30","Maze bank arena","Round 4"),
+  
   up("u03","17","FRI","Jul","League","LG","Gotham Bats",ZMFC,"20:00","Wayne Stadium","Round 5"),
   up("u04","20","MON","Jul","League","LG",ZMFC,"FK Rudar Zenica","18:00","Maze bank arena","Round 6"),
   up("u05","22","WED","Jul","Friendly","FL","Galaticosi",ZMFC,"19:30","Estadio Galactico","Friendly"),
