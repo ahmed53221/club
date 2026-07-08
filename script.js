@@ -280,7 +280,7 @@ const results = [
    id:"r7", d:"08 JUL", day:"TUE", date:"08 Jul 2026",
     comp:"League", compTag:"LG",
     home:ZMFC, away:"Sarajevo athletic", score:"9 – 0", ht:"5 – 0",
-    venue:"Maze bank arena", round:"Round 3", ref:"A. Dizdar", att:"4,120",
+    venue:"Maze bank arena", round:"Round 4", ref:"Moj trubas cojk", att:"36,131",
     events:[
      
       { min:"4'", side:"home", type:"goal", text:"Smedt" },
